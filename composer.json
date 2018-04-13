@@ -1,0 +1,24 @@
+{
+    "autoload": {
+       "psr-4": {
+           "App\\": "App"
+
+           
+       }   
+   },
+
+   "name": "Segurança da aplicaçao",
+   
+   "require":{
+       "php":">=5.3",
+        "phpmailer/phpmailer": "^6.0",
+        "sendgrid/sendgrid": "2.1.1"
+   },
+
+   "minimum-stability" : "alpha",
+
+   "authors": [{
+       "name":"HandersonSilva"
+   }]
+  
+}
